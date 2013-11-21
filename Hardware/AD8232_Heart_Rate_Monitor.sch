@@ -17560,10 +17560,10 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1M"/>
 <part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100k"/>
 <part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1nF"/>
-<part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uf"/>
-<part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.33uF"/>
-<part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.33uF"/>
+<part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uf"/>
+<part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C6" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.33uF"/>
+<part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.33uF"/>
 <part name="C1" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1.5nF"/>
 <part name="C3" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10nF"/>
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10M"/>
