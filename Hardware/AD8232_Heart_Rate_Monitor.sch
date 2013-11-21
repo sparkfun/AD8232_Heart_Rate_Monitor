@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -15937,14 +15937,14 @@ logo. Default layer for the logo on the board is tSilk.</description>
 <smd name="18" x="0" y="1.85" dx="0.25" dy="0.5" layer="1" rot="R180"/>
 <smd name="19" x="-0.5" y="1.85" dx="0.25" dy="0.5" layer="1" rot="R180"/>
 <smd name="20" x="-1" y="1.85" dx="0.25" dy="0.5" layer="1" rot="R180"/>
-<wire x1="2.25" y1="2.25" x2="-2.25" y2="2.25" width="0.2032" layer="21"/>
-<wire x1="-2.25" y1="2.25" x2="-2.25" y2="-2.25" width="0.2032" layer="21"/>
-<wire x1="-2.25" y1="-2.25" x2="2.25" y2="-2.25" width="0.2032" layer="21"/>
-<wire x1="2.25" y1="-2.25" x2="2.25" y2="2.25" width="0.2032" layer="21"/>
+<wire x1="2.25" y1="2.25" x2="-2.25" y2="2.25" width="0.2032" layer="51"/>
+<wire x1="-2.25" y1="2.25" x2="-2.25" y2="-2.25" width="0.2032" layer="51"/>
+<wire x1="-2.25" y1="-2.25" x2="2.25" y2="-2.25" width="0.2032" layer="51"/>
+<wire x1="2.25" y1="-2.25" x2="2.25" y2="2.25" width="0.2032" layer="51"/>
 <smd name="PAD" x="0" y="0" dx="2.5" dy="2.5" layer="1" roundness="10"/>
-<circle x="1.7" y="1.7" radius="0.282840625" width="0" layer="21"/>
-<text x="-2.54" y="2.54" size="0.8128" layer="21" font="vector" ratio="20">&gt;VALUE</text>
-<text x="-2.54" y="-2.54" size="0.8128" layer="21" font="vector" ratio="20" align="top-left">&gt;NAME</text>
+<circle x="1.7" y="1.7" radius="0.282840625" width="0" layer="51"/>
+<text x="-2.54" y="2.54" size="0.8128" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<text x="-2.54" y="-2.54" size="0.8128" layer="25" font="vector" ratio="20" align="top-left">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
