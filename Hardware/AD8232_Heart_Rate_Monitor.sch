@@ -17598,7 +17598,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v01</text>
 <text x="76.2" y="152.4" size="1.778" layer="97">Note: Cardiac Monitor Config</text>
 <text x="177.8" y="83.82" size="1.778" layer="97">Note: Cardiac Monitor Config</text>
-<wire x1="175.26" y1="88.265" x2="175.26" y2="86.36" width="1.016" layer="94"/>
+<wire x1="175.26" y1="85.725" x2="175.26" y2="83.82" width="1.016" layer="94"/>
 <wire x1="81.28" y1="149.86" x2="79.375" y2="149.86" width="1.016" layer="94"/>
 </plain>
 <instances>
@@ -17653,7 +17653,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <attribute name="VALUE" x="83.185" y="152.4" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY2" gate="G$1" x="73.66" y="157.48"/>
-<instance part="SJ2" gate="G$1" x="175.26" y="86.36"/>
+<instance part="SJ2" gate="G$1" x="175.26" y="83.82"/>
 <instance part="SUPPLY4" gate="G$1" x="203.2" y="99.06"/>
 <instance part="JP2" gate="G$1" x="43.18" y="144.78" rot="R270"/>
 <instance part="JP1" gate="G$1" x="55.88" y="63.5" rot="MR90"/>
@@ -17692,7 +17692,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <wire x1="190.5" y1="99.06" x2="190.5" y2="97.79" width="0.1524" layer="91"/>
 <junction x="190.5" y="99.06"/>
 <pinref part="SJ2" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="91.44" x2="175.26" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="88.9" x2="175.26" y2="99.06" width="0.1524" layer="91"/>
 <junction x="175.26" y="99.06"/>
 </segment>
 <segment>
@@ -17756,14 +17756,13 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="U1" gate="U$1" pin="OPAMP-"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="R9" gate="G$1" pin="2"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="78.74" x2="119.38" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="U1" gate="U$1" pin="OPAMP-"/>
+<wire x1="119.38" y1="78.74" x2="121.92" y2="78.74" width="0.1524" layer="91"/>
 <junction x="119.38" y="78.74"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-<junction x="119.38" y="78.74"/>
-<wire x1="116.84" y1="78.74" x2="121.92" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="78.74" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SIGNAL_OUT" class="0">
@@ -17778,6 +17777,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <wire x1="104.14" y1="68.58" x2="104.14" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="60.96" x2="109.22" y2="60.96" width="0.1524" layer="91"/>
 <label x="109.22" y="60.96" size="1.27" layer="95" xref="yes"/>
+<junction x="104.14" y="68.58"/>
 </segment>
 </net>
 <net name="REFOUT" class="0">
@@ -17789,9 +17789,9 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <wire x1="119.38" y1="88.9" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="88.9" x2="119.38" y2="88.9" width="0.1524" layer="91"/>
 <junction x="119.38" y="88.9"/>
-<wire x1="119.38" y1="88.9" x2="99.06" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="88.9" x2="114.3" y2="88.9" width="0.1524" layer="91"/>
 <junction x="116.84" y="88.9"/>
-<label x="99.06" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="114.3" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
@@ -17938,9 +17938,9 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </segment>
 <segment>
 <pinref part="SJ2" gate="G$1" pin="3"/>
-<wire x1="175.26" y1="81.28" x2="175.26" y2="80.01" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="80.01" x2="203.2" y2="80.01" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="80.01" x2="203.2" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="78.74" x2="175.26" y2="77.47" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="77.47" x2="203.2" y2="77.47" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="77.47" x2="203.2" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
@@ -17988,9 +17988,9 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <segment>
 <pinref part="U1" gate="U$1" pin="AC/!DC"/>
 <wire x1="162.56" y1="88.9" x2="165.1" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="88.9" x2="165.1" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="88.9" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="SJ2" gate="G$1" pin="2"/>
-<wire x1="165.1" y1="86.36" x2="170.18" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="83.82" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RL" class="0">
