@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -151,6 +151,7 @@
 </polygon>
 <text x="6.985" y="8.89" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0">CARDIAC MONITOR</text>
 <text x="6.985" y="7.62" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0">HEART RATE</text>
+<text x="26.67" y="-8.89" size="1.778" layer="25">Casey Kuhns</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
