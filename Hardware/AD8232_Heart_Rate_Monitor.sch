@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -127,9 +127,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="27">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="27">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="11.43" y="0" size="1.778" layer="27">Designed by:</text>
+<text x="-20.32" y="5.08" size="1.778" layer="51">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="51">http://creativecommons.org/licenses/by-sa/3.0</text>
+<text x="11.43" y="0" size="1.778" layer="51">Designed by:</text>
 </package>
 <package name="OSHW-LOGO-S">
 <polygon width="0.15" layer="21">
@@ -15942,7 +15942,7 @@ logo. Default layer for the logo on the board is tSilk.</description>
 <wire x1="-2.25" y1="-2.25" x2="2.25" y2="-2.25" width="0.2032" layer="51"/>
 <wire x1="2.25" y1="-2.25" x2="2.25" y2="2.25" width="0.2032" layer="51"/>
 <smd name="PAD" x="0" y="0" dx="2.5" dy="2.5" layer="1" roundness="10"/>
-<circle x="1.7" y="1.7" radius="0.282840625" width="0" layer="51"/>
+<circle x="-1.729" y="1.7" radius="0.282840625" width="0" layer="51"/>
 <text x="-2.54" y="2.54" size="0.8128" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <text x="-2.54" y="-2.54" size="0.8128" layer="25" font="vector" ratio="20" align="top-left">&gt;NAME</text>
 </package>
@@ -17043,19 +17043,19 @@ We've spent an enormous amount of time creating and checking these footprints an
 <hole x="4" y="0" drill="1.2"/>
 </package>
 <package name="AUDIO-JACK-3.5MM-SMD">
-<wire x1="3.9878" y1="-3.2512" x2="10.1346" y2="-3.2512" width="0.254" layer="21"/>
-<wire x1="14.5288" y1="-0.635" x2="14.5288" y2="-3.302" width="0.254" layer="21"/>
-<wire x1="14.5288" y1="-3.302" x2="13.1572" y2="-3.302" width="0.254" layer="21"/>
-<wire x1="14.478" y1="2.2098" x2="14.478" y2="3.429" width="0.254" layer="21"/>
-<wire x1="14.478" y1="3.429" x2="5.6896" y2="3.429" width="0.254" layer="21"/>
-<wire x1="0.635" y1="3.3782" x2="0" y2="3.3782" width="0.254" layer="51"/>
-<wire x1="0" y1="3.3782" x2="0" y2="-2.2352" width="0.254" layer="51"/>
-<wire x1="0" y1="-2.2352" x2="0" y2="-3.2258" width="0.254" layer="51"/>
-<wire x1="0" y1="-3.2258" x2="1.0922" y2="-3.2258" width="0.254" layer="51"/>
-<wire x1="-0.1524" y1="2.5908" x2="-2.7178" y2="2.5908" width="0.254" layer="51"/>
-<wire x1="-2.7178" y1="2.5908" x2="-2.7178" y2="-2.2352" width="0.254" layer="51"/>
-<wire x1="-2.7178" y1="-2.2352" x2="0" y2="-2.2352" width="0.254" layer="51"/>
-<smd name="SLEEVE" x="2.5" y="-3.45" dx="2" dy="2.5" layer="1"/>
+<wire x1="3.9" y1="-3" x2="10.2" y2="-3" width="0.254" layer="21"/>
+<wire x1="14.5" y1="-0.635" x2="14.5" y2="-3" width="0.254" layer="21"/>
+<wire x1="14.5" y1="-3" x2="13.2" y2="-3" width="0.254" layer="21"/>
+<wire x1="14.5" y1="2.2098" x2="14.5" y2="3" width="0.254" layer="21"/>
+<wire x1="14.5" y1="3" x2="5.7" y2="3" width="0.254" layer="21"/>
+<wire x1="0.5" y1="3" x2="0" y2="3" width="0.254" layer="51"/>
+<wire x1="0" y1="3" x2="0" y2="-2.5" width="0.254" layer="51"/>
+<wire x1="0" y1="-2.5" x2="0" y2="-3" width="0.254" layer="51"/>
+<wire x1="0" y1="-3" x2="1" y2="-3" width="0.254" layer="51"/>
+<wire x1="-0.1524" y1="2.5" x2="-2.5" y2="2.5" width="0.254" layer="51"/>
+<wire x1="-2.5" y1="2.5" x2="-2.5" y2="-2.5" width="0.254" layer="51"/>
+<wire x1="-2.5" y1="-2.5" x2="0" y2="-2.5" width="0.254" layer="51"/>
+<smd name="SLEEVE" x="2.4" y="-3.45" dx="2" dy="2.5" layer="1"/>
 <smd name="TIP" x="11.7" y="-3.45" dx="2" dy="2.5" layer="1"/>
 <smd name="RING" x="4.3" y="3.45" dx="2" dy="2.5" layer="1"/>
 <smd name="TSH" x="15.75" y="0.75" dx="2" dy="2.5" layer="1" rot="R90"/>
@@ -17747,6 +17747,29 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <text x="-1.27" y="2.54" size="0.4064" layer="25">&gt;Name</text>
 <text x="-1.27" y="-2.54" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
+<package name="STEREOJACK2.5MM">
+<wire x1="-1.5" y1="1.3" x2="-1.5" y2="2.5" width="0.2032" layer="21"/>
+<wire x1="-1.5" y1="2.5" x2="-0.096" y2="2.5" width="0.2032" layer="21"/>
+<wire x1="-1.5" y1="1.3" x2="-1.5" y2="-1.3" width="0.2032" layer="21"/>
+<wire x1="-1.5" y1="-1.3" x2="-1.5" y2="-2.5" width="0.2032" layer="21"/>
+<wire x1="-1.5" y1="-2.5" x2="-0.1206" y2="-2.5" width="0.2032" layer="21"/>
+<wire x1="1.996" y1="2.5" x2="5.0516" y2="2.5" width="0.2032" layer="21"/>
+<wire x1="2.073" y1="-2.5" x2="5.077" y2="-2.5" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="1.3" x2="-1.5" y2="1.3" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="1.3" x2="-2.5" y2="-1.3" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="-1.3" x2="-1.5" y2="-1.3" width="0.2032" layer="21"/>
+<wire x1="6.773" y1="2.5" x2="7.9" y2="2.5" width="0.2032" layer="21"/>
+<wire x1="7.9" y1="2.5" x2="7.9" y2="0.9738" width="0.2032" layer="21"/>
+<wire x1="6.8484" y1="-2.5" x2="7.9" y2="-2.5" width="0.2032" layer="21"/>
+<wire x1="7.9" y1="-2.5" x2="7.9" y2="-0.873" width="0.2032" layer="21"/>
+<smd name="5" x="1" y="2.9516" dx="1.4666" dy="2.3" layer="1"/>
+<smd name="A" x="1.016" y="-2.9516" dx="1.4666" dy="2.3" layer="1"/>
+<smd name="4" x="5.9492" y="-2.54" dx="2.1" dy="1.119" layer="1" rot="R90"/>
+<smd name="1" x="5.8984" y="2.54" dx="2.1" dy="1.1444" layer="1" rot="R90"/>
+<smd name="3" x="8.55" y="0" dx="1.9984" dy="1.1698" layer="1" rot="R180"/>
+<hole x="0" y="0" drill="1.2"/>
+<hole x="4" y="0" drill="1.2"/>
+</package>
 </packages>
 <symbols>
 <symbol name="AUDIO-JACK">
@@ -17788,7 +17811,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="AUDIO-JACK" prefix="U" uservalue="yes">
+<deviceset name="AUDIO-JACK" prefix="JP" uservalue="yes">
 <description>&lt;b&gt;3.5mm Audio Jack&lt;/b&gt;
 Simple 3.5mm common PCB mount audio jack. SKU: PRT-08032</description>
 <gates>
@@ -17842,7 +17865,9 @@ Simple 3.5mm common PCB mount audio jack. SKU: PRT-08032</description>
 <connect gate="G$1" pin="SLEEVE" pad="5"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-10062" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SMD2" package="AUDIO-JACK-3.5MM-SMD">
@@ -17850,6 +17875,18 @@ Simple 3.5mm common PCB mount audio jack. SKU: PRT-08032</description>
 <connect gate="G$1" pin="LEFT" pad="TIP"/>
 <connect gate="G$1" pin="RIGHT" pad="RING"/>
 <connect gate="G$1" pin="SLEEVE" pad="SLEEVE"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-10353" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1:1" package="STEREOJACK2.5MM">
+<connects>
+<connect gate="G$1" pin="LEFT" pad="1"/>
+<connect gate="G$1" pin="RIGHT" pad="4"/>
+<connect gate="G$1" pin="SLEEVE" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
