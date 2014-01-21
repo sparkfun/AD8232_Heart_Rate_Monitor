@@ -1845,7 +1845,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="23.749" y="8.509" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R5" library="SparkFun-Passives" package="0603-RES" value="360k" x="16.891" y="12.065" smashed="yes" rot="R180">
-<attribute name="NAME" x="18.542" y="11.303" size="0.8128" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="15.24" y="11.43" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="17.907" y="13.208" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="SJ1" library="SparkFun-Passives" package="SJ_3_PASTE1&amp;2" value="" x="23.241" y="26.035" smashed="yes">
@@ -1871,11 +1871,15 @@ design rules under a new name.</description>
 <attribute name="VALUE" value="10K" x="27.178" y="1.27" size="1.778" layer="27" display="off"/>
 </element>
 <element name="JP1" library="SparkFun-Connectors" package="1X03" value="" x="1.27" y="15.24" rot="R90"/>
-<element name="R16" library="SparkFun-Resistors" package="0603-RES" value="1k" x="16.891" y="10.287">
+<element name="R16" library="SparkFun-Resistors" package="0603-RES" value="1k" x="16.891" y="10.287" smashed="yes">
 <attribute name="PROD_ID" value="RES-07856" x="16.891" y="10.287" size="0.8128" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="NAME" x="15.24" y="8.89" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="15.875" y="9.144" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="D1" library="SparkFun-LED" package="LED-0603" value="RED" x="8.382" y="8.382" rot="R90">
+<element name="D1" library="SparkFun-LED" package="LED-0603" value="RED" x="8.382" y="8.382" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="DIO-00819" x="8.382" y="8.382" size="0.8128" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="NAME" x="9.017" y="7.6835" size="0.8128" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="VALUE" x="9.398" y="9.9695" size="0.8128" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="SJ4" library="SparkFun-Passives" package="SJ_2S-TRACE" value="LED DISABLE" x="7.62" y="2.032" rot="R90"/>
 </elements>
