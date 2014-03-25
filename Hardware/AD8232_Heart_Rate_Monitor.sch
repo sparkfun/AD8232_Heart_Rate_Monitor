@@ -19064,7 +19064,7 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10M"/>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10M"/>
 <part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1.4M"/>
-<part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1.4M"/>
+<part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10M"/>
 <part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10M"/>
 <part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1M"/>
 <part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="360k"/>
@@ -19083,7 +19083,7 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M06" device="SIP"/>
-<part name="R15" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603"/>
+<part name="R15" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="10K"/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M03" device="PTH"/>
 <part name="R16" library="SparkFun-Resistors" deviceset="1K-1%" device="" value="1k"/>
@@ -19099,7 +19099,7 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <sheet>
 <plain>
 <text x="167.64" y="7.62" size="3.81" layer="94" font="vector">Casey Kuhns</text>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v03</text>
 <text x="68.58" y="154.94" size="1.778" layer="97">Note: Cardiac Monitor Config</text>
 <text x="187.96" y="83.82" size="1.778" layer="97">Note: Cardiac Monitor Config</text>
 </plain>
@@ -19163,7 +19163,7 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <instance part="LOGO1" gate="G$1" x="127" y="27.94"/>
 <instance part="JP3" gate="G$1" x="30.48" y="86.36" rot="MR90"/>
 <instance part="R15" gate="G$1" x="43.18" y="101.6" rot="R90"/>
-<instance part="SUPPLY6" gate="G$1" x="43.18" y="106.68"/>
+<instance part="SUPPLY6" gate="G$1" x="43.18" y="109.22"/>
 <instance part="JP1" gate="G$1" x="25.4" y="147.32" rot="R270"/>
 <instance part="R16" gate="G$1" x="58.42" y="55.88"/>
 <instance part="D1" gate="G$1" x="48.26" y="55.88" rot="R270"/>
@@ -19295,8 +19295,8 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 </segment>
 <segment>
 <pinref part="JP3" gate="G$1" pin="3"/>
-<wire x1="30.48" y1="91.44" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
-<label x="30.48" y="93.98" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="30.48" y1="91.44" x2="30.48" y2="96.52" width="0.1524" layer="91"/>
+<label x="30.48" y="96.52" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="55.88" x2="63.5" y2="55.88" width="0.1524" layer="91"/>
@@ -19485,6 +19485,7 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
 <pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
+<wire x1="43.18" y1="109.22" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LO+" class="0">
@@ -19494,8 +19495,8 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <label x="165.1" y="73.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="35.56" y1="91.44" x2="35.56" y2="93.98" width="0.1524" layer="91"/>
-<label x="35.56" y="93.98" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="35.56" y1="91.44" x2="35.56" y2="96.52" width="0.1524" layer="91"/>
+<label x="35.56" y="96.52" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="JP3" gate="G$1" pin="5"/>
 </segment>
 </net>
@@ -19506,8 +19507,8 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <label x="165.1" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="33.02" y1="91.44" x2="33.02" y2="93.98" width="0.1524" layer="91"/>
-<label x="33.02" y="93.98" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="33.02" y1="91.44" x2="33.02" y2="96.52" width="0.1524" layer="91"/>
+<label x="33.02" y="96.52" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="JP3" gate="G$1" pin="4"/>
 </segment>
 </net>
@@ -19547,9 +19548,9 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <net name="SDN" class="0">
 <segment>
 <wire x1="38.1" y1="91.44" x2="38.1" y2="93.98" width="0.1524" layer="91"/>
-<label x="38.1" y="99.06" size="1.27" layer="95" rot="R90" xref="yes"/>
+<label x="38.1" y="96.52" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="JP3" gate="G$1" pin="6"/>
-<wire x1="38.1" y1="93.98" x2="38.1" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="93.98" x2="38.1" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="93.98" x2="43.18" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="93.98" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="1"/>
