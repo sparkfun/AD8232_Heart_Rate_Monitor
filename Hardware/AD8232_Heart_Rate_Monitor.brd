@@ -152,7 +152,7 @@
 <text x="26.67" y="-8.89" size="1.778" layer="51">Casey Kuhns</text>
 <text x="16.51" y="2.921" size="1.27" layer="21" font="vector" ratio="20" rot="R90" align="center-left">OUTPUT</text>
 <text x="16.51" y="2.921" size="1.27" layer="22" font="vector" ratio="20" rot="MR90" align="center-left">OUTPUT</text>
-<text x="30.988" y="0.889" size="0.8128" layer="16" font="vector" ratio="20" rot="MR0" align="center-left">v03</text>
+<text x="30.988" y="0.889" size="0.8128" layer="16" font="vector" ratio="20" rot="MR0" align="center-left">v10</text>
 <text x="3.048" y="17.78" size="1.27" layer="21" font="vector" ratio="15" align="center-left">LA</text>
 <text x="3.048" y="20.32" size="1.27" layer="21" font="vector" ratio="15" align="center-left">RA</text>
 <text x="3.048" y="15.24" size="1.27" layer="21" font="vector" ratio="15" align="center-left">RL</text>
