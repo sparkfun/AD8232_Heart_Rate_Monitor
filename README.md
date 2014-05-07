@@ -20,7 +20,7 @@ Repository Contents
 
 Product Versions
 ----------------
-* [Part SKU](part URL)- Basic part and short description here
+* [Part SKU](partURL)- Basic part and short description here
 * [Retail part SKU] (retail URL)- Retail packaging of standard description here
 * [Any other parts this repo covers](any other URLs) - Description of said parts
 
