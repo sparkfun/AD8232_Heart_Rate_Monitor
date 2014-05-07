@@ -19131,7 +19131,7 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <sheet>
 <plain>
 <text x="167.64" y="7.62" size="3.81" layer="94" font="vector">Casey Kuhns</text>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v03</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="68.58" y="154.94" size="1.778" layer="97">Note: Cardiac Monitor Config</text>
 <text x="187.96" y="83.82" size="1.778" layer="97">Note: Cardiac Monitor Config</text>
 </plain>
