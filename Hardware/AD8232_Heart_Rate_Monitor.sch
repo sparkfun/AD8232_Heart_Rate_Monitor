@@ -15971,10 +15971,16 @@ Various fiducial points for machine vision alignment.</description>
 <wire x1="-2.25" y1="2.25" x2="-2.25" y2="-2.25" width="0.2032" layer="51"/>
 <wire x1="-2.25" y1="-2.25" x2="2.25" y2="-2.25" width="0.2032" layer="51"/>
 <wire x1="2.25" y1="-2.25" x2="2.25" y2="2.25" width="0.2032" layer="51"/>
-<smd name="PAD" x="0" y="0" dx="2.5" dy="2.5" layer="1" roundness="10"/>
+<smd name="PAD" x="0" y="0" dx="2.5" dy="2.5" layer="1" roundness="10" cream="no"/>
 <circle x="-1.729" y="1.7" radius="0.282840625" width="0" layer="51"/>
 <text x="-2.54" y="2.54" size="0.8128" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <text x="-2.54" y="-2.54" size="0.8128" layer="25" font="vector" ratio="20" align="top-left">&gt;NAME</text>
+<polygon width="0.127" layer="31">
+<vertex x="0" y="0.508" curve="-90"/>
+<vertex x="0.508" y="0" curve="-90"/>
+<vertex x="0" y="-0.508" curve="-90"/>
+<vertex x="-0.508" y="0" curve="-90"/>
+</polygon>
 </package>
 </packages>
 <symbols>
