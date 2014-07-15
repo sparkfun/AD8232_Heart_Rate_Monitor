@@ -20,7 +20,7 @@ Repository Contents
 
 Version History
 ---------------
-* [v10](URL for tag specific to this version) Initial Release
+* [v10](https://github.com/sparkfun/AD8232_Heart_Rate_Monitor/tree/v10) Initial Release
 
 License Information
 -------------------
