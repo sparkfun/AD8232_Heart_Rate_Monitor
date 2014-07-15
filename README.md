@@ -20,7 +20,7 @@ Repository Contents
 
 Version History
 ---------------
-* [v1.0](URL for tag specific to this version) Initial Release
+* [v10](URL for tag specific to this version) Initial Release
 
 License Information
 -------------------
