@@ -61,7 +61,7 @@ void serialEvent (Serial myPort) {
     // trim off any whitespace:
     inString = trim(inString);
 
-    // If leads off detection is true kill notify with blue line
+    // If leads off detection is true notify with blue line
     if (inString.equals("!")) { 
       stroke(0, 0, 0xff); //Set stroke to blue ( R, G, B)
       inByte = 512;  // middle of the ADC range (Flat Line)
