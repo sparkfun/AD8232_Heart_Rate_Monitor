@@ -2,7 +2,7 @@
 
 [![alt text](https://cdn.sparkfun.com/assets/learn_tutorials/2/5/0/HeartRateBoardFront.jpg)](https://cdn.sparkfun.com/assets/learn_tutorials/2/5/0/HeartRateBoardFront.jpg)
 
-*AD8232 Single Lead Heart Rate Monitor (SEN-12650)*](https://www.sparkfun.com/products/12650)
+[*AD8232 Single Lead Heart Rate Monitor (SEN-12650)*](https://www.sparkfun.com/products/12650)
 
 The AD8232 is a neat little chip used to measure the electrical activity of the heart. This electrical activity can be charted as an ECG or Electrocardiogram. [Electrocardiography](http://en.wikipedia.org/wiki/Electrocardiography) is used to help diagnose various heart conditions. [The datasheet can be found here.](www.sparkfun.com)
 
