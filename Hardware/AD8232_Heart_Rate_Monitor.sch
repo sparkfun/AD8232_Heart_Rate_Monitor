@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="9.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -19181,9 +19182,9 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <attribute name="NAME" x="102.6414" y="100.33" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="105.918" y="105.41" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R5" gate="G$1" x="96.52" y="111.76" smashed="yes" rot="R180">
-<attribute name="NAME" x="92.71" y="113.2586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="100.33" y="109.982" size="1.778" layer="96" rot="R180"/>
+<instance part="R5" gate="G$1" x="96.52" y="109.22" smashed="yes" rot="R180">
+<attribute name="NAME" x="92.71" y="110.7186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="100.33" y="107.442" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY1" gate="G$1" x="173.99" y="109.22"/>
 <instance part="GND2" gate="1" x="190.5" y="95.25"/>
@@ -19431,11 +19432,6 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <wire x1="114.3" y1="104.14" x2="114.3" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="147.32" x2="177.8" y2="147.32" width="0.1524" layer="91"/>
 <junction x="177.8" y="147.32"/>
-<wire x1="93.98" y1="149.86" x2="109.22" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="149.86" x2="109.22" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="104.14" x2="114.3" y2="104.14" width="0.1524" layer="91"/>
-<junction x="114.3" y="104.14"/>
-<pinref part="R18" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -19454,18 +19450,6 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="81.28" x2="104.14" y2="99.06" width="0.1524" layer="91"/>
 <junction x="104.14" y="99.06"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="U1" gate="U$1" pin="RLD"/>
-<wire x1="121.92" y1="109.22" x2="119.38" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="109.22" x2="116.84" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="109.22" x2="116.84" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="111.76" x2="101.6" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<junction x="119.38" y="109.22"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -19569,8 +19553,8 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <net name="RL" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="111.76" x2="73.66" y2="111.76" width="0.1524" layer="91"/>
-<label x="73.66" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="91.44" y1="109.22" x2="73.66" y2="109.22" width="0.1524" layer="91"/>
+<label x="73.66" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="G$1" pin="LEFT"/>
@@ -19625,6 +19609,22 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <wire x1="177.8" y1="78.74" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="78.74" x2="177.8" y2="78.74" width="0.1524" layer="91"/>
 <junction x="177.8" y="78.74"/>
+</segment>
+</net>
+<net name="RLD" class="0">
+<segment>
+<pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="149.86" x2="109.22" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="U1" gate="U$1" pin="RLD"/>
+<wire x1="121.92" y1="109.22" x2="119.38" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="119.38" y1="109.22" x2="109.22" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<junction x="119.38" y="109.22"/>
+<wire x1="109.22" y1="109.22" x2="101.6" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="149.86" x2="109.22" y2="109.22" width="0.1524" layer="91"/>
+<junction x="109.22" y="109.22"/>
+<label x="104.14" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
