@@ -19311,7 +19311,6 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <net name="N$7" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="78.74" x2="119.38" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U1" gate="U$1" pin="OPAMP-"/>
@@ -19418,7 +19417,6 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="R13" gate="G$1" pin="2"/>
-<pinref part="R12" gate="G$1" pin="1"/>
 <pinref part="R12" gate="G$1" pin="1"/>
 <junction x="177.8" y="134.62"/>
 </segment>
