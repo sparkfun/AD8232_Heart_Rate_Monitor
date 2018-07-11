@@ -49,7 +49,21 @@ void setup () {
 
 
 void draw () {
-  // everything happens in the serialEvent()
+     //Map and draw the line for new data point
+     inByte = map(inByte, 0, 1023, 0, height);
+     height_new = height - inByte; 
+     line(xPos - 1, height_old, xPos, height_new);
+     height_old = height_new;
+    
+      // at the edge of the screen, go back to the beginning:
+      if (xPos >= width) {
+        xPos = 0;
+        background(0xff);
+      } 
+      else {
+        // increment the horizontal position:
+        xPos++;
+      }
 }
 
 
@@ -71,23 +85,7 @@ void serialEvent (Serial myPort) {
       stroke(0xff, 0, 0); //Set stroke to red ( R, G, B)
       inByte = float(inString); 
      }
-     
-     //Map and draw the line for new data point
-     inByte = map(inByte, 0, 1023, 0, height);
-     height_new = height - inByte; 
-     line(xPos - 1, height_old, xPos, height_new);
-     height_old = height_new;
-    
-      // at the edge of the screen, go back to the beginning:
-      if (xPos >= width) {
-        xPos = 0;
-        background(0xff);
-      } 
-      else {
-        // increment the horizontal position:
-        xPos++;
-      }
-    
   }
+  
 }
 
