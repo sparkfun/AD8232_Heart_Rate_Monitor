@@ -33,9 +33,9 @@ float height_new = 0;
 float inByte = 0;
 int BPM = 0;
 int beat_old = 0;
-float[] beats = new float[500];
+float[] beats = new float[500];  // Used to calculate average BPM
 int beatIndex;
-float threshold = 620.0;
+float threshold = 620.0;  //Threshold at which BPM calculation occurs
 boolean belowThreshold = true;
 PFont font;
 
@@ -73,12 +73,12 @@ void draw () {
         xPos++;
       }
       
-      // draw text for BPM
+      // draw text for BPM periodically
       if (millis() % 128 == 0){
-      fill(0xFF);
-      rect(0, 0, 200, 20);
-      fill(0x00);
-      text("BPM: " + inByte, 15, 10);
+        fill(0xFF);
+        rect(0, 0, 200, 20);
+        fill(0x00);
+        text("BPM: " + inByte, 15, 10);
       }
 }
 
@@ -104,6 +104,8 @@ void serialEvent (Serial myPort)
     {
       stroke(0xff, 0, 0); //Set stroke to red ( R, G, B)
       inByte = float(inString); 
+      
+      // BPM calculation check
       if (inByte > threshold && belowThreshold == true)
       {
         calculateBPM();
@@ -119,18 +121,15 @@ void serialEvent (Serial myPort)
   
 void calculateBPM () 
 {  
-  //get the current millisecond
-  int beat_new = millis();
-  //find the time between the last two beats
-  int diff = beat_new - beat_old;
-  //convert to beats per minute
-  float currentBPM = 60000 / diff;
-  beats[beatIndex] = currentBPM;
+  int beat_new = millis();    // get the current millisecond
+  int diff = beat_new - beat_old;    // find the time between the last two beats
+  float currentBPM = 60000 / diff;    // convert to beats per minute
+  beats[beatIndex] = currentBPM;  // store to array to convert the average
   float total = 0.0;
   for (int i = 0; i < 500; i++){
     total += beats[i];
   }
   BPM = int(total / 500);
   beat_old = beat_new;
-  beatIndex = (beatIndex + 1) % 500;
+  beatIndex = (beatIndex + 1) % 500;  // cycle through the array instead of using FIFO queue
   }
