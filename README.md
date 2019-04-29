@@ -1,6 +1,7 @@
-#AD8232 Single Lead Heart Rate Monitor
+SparkFun AD8232 Single Lead Heart Rate Monitor
+-------------------
 
-[![alt text](https://cdn.sparkfun.com/assets/learn_tutorials/2/5/0/HeartRateBoardFront.jpg)](https://cdn.sparkfun.com/assets/learn_tutorials/2/5/0/HeartRateBoardFront.jpg)
+[![AD8232 Breakout Board](https://cdn.sparkfun.com/assets/learn_tutorials/2/5/0/HeartRateBoardFront.jpg)](https://www.sparkfun.com/products/12650)
 
 [*AD8232 Single Lead Heart Rate Monitor (SEN-12650)*](https://www.sparkfun.com/products/12650)
 
