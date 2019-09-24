@@ -19,6 +19,10 @@ Repository Contents
 * **/Software** - Demo program files for hookup guide
 
 
+Documentation
+--------------
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/ad8232-heart-rate-monitor-hookup-guide/)** - Basic hookup guide AD8232 heart rate monitor.
+
 Version History
 ---------------
 * [v10](https://github.com/sparkfun/AD8232_Heart_Rate_Monitor/tree/v10) Initial Release
