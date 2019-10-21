@@ -1,0 +1,68 @@
+/*
+*  Here are proposed changes for the code of the heart rate monitor, the old code could only function in the second version of Processing.
+*  The proposed changes now work for the newest version (3.3.2).
+*
+*  All rights reserved to the original creators.
+*/
+
+import processing.serial.*;
+
+Serial myPort;
+int xPos = 1;
+float height_old = 0;
+float height_new = 0;
+float inByte = 0;
+
+
+void setup () {
+  //Window Size
+  size(1080, 500);        
+
+  // List serial ports
+  println(Serial.list());
+  myPort = new Serial(this, Serial.list()[0], 9600);
+  myPort.bufferUntil('\n');
+  
+  //Background
+  background(255);
+  
+  fill(color(0,0,0));
+  text("Heart Rate Monitor v1.0", 10, 10);
+}
+
+
+void draw () {
+       
+     inByte = map(inByte, 0, 1023, 0, height);
+     height_new = height - inByte; 
+     line(xPos - 1, height_old, xPos, height_new);
+     height_old = height_new;
+    
+      if (xPos >= width) {
+        xPos = 0;
+        background(255);
+      } 
+      else {
+        xPos++;
+      }
+}
+
+
+void serialEvent (Serial myPort) {
+  // get the ASCII string:
+  String inString = myPort.readStringUntil('\n');
+
+  if (inString != null) {
+    // trim off any whitespace:
+    inString = trim(inString);
+
+    if (inString.equals("!")) { 
+      stroke(0, 0, 255);
+      inByte = 512;
+    }
+    else {
+      stroke(255, 0, 0);
+      inByte = float(inString); 
+     }
+  }
+}
