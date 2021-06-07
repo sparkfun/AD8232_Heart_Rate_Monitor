@@ -1,0 +1,8 @@
+{
+    "port": "COM6",
+    "configuration": "cpu=atmega328old",
+    "board": "arduino:avr:nano",
+    "programmer": "arduino:arduinoisp",
+    "sketch": "Software\\Heart_Rate_Display_Arduino\\Heart_Rate_Display_Arduino.ino",
+    "output": "build"
+}

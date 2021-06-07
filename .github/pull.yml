@@ -1,0 +1,11 @@
+version: "1"
+rules:
+  - base: master
+    upstream: franzbischoff:master
+    mergeMethod: hardreset
+  - base: main
+    upstream: franzbischoff:main
+    mergeMethod: hardreset
+  - base: develop
+    upstream: franzbischoff:develop
+    mergeMethod: hardreset

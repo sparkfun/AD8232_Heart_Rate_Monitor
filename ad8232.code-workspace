@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+	},
+	"extensions": {
+		"recommendations": [
+      "vsciot-vscode.vscode-arduino",
+      "farhang0393.arduino-class-creator",
+      "ms-vscode.cpptools",
+      "guyutongxue.cpp-reference",
+      "editorconfig.editorconfig",
+      "donjayamanne.git-extension-pack",
+      "millenniumambiguity.processing-formatter",
+      "luke-zhang-04.processing-vscode",
+      "visualstudioexptteam.vscodeintellicode"
+    ]
+	}
+}

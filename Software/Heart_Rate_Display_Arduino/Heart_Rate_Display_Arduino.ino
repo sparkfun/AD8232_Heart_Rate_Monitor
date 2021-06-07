@@ -14,9 +14,9 @@ Resources:
 This program requires a Processing sketch to view the data in real time.
 
 Development environment specifics:
-	IDE: Arduino 1.0.5
-	Hardware Platform: Arduino Pro 3.3V/8MHz
-	AD8232 Heart Monitor Version: 1.0
+        IDE: Arduino 1.0.5
+        Hardware Platform: Arduino Pro 3.3V/8MHz
+        AD8232 Heart Monitor Version: 1.0
 
 This code is beerware. If you see me (or any other SparkFun employee) at the
 local pub, and you've found our code helpful, please buy us a round!
@@ -29,19 +29,16 @@ void setup() {
   Serial.begin(9600);
   pinMode(10, INPUT); // Setup for leads off detection LO +
   pinMode(11, INPUT); // Setup for leads off detection LO -
-
 }
 
 void loop() {
-  
-  if((digitalRead(10) == 1)||(digitalRead(11) == 1)){
+
+  if ((digitalRead(10) == 1) || (digitalRead(11) == 1)) {
     Serial.println('!');
-  }
-  else{
+  } else {
     // send the value of analog input 0:
-      Serial.println(analogRead(A0));
+    Serial.println(analogRead(A0));
   }
-  //Wait for a bit to keep serial data from saturating
+  // Wait for a bit to keep serial data from saturating
   delay(1);
 }
-
