@@ -196,3 +196,9 @@ pip-log.txt
 #############
 
 /Misc
+
+# SPICE
+*.log
+*.raw
+*.op.raw
+*.net
