@@ -16,6 +16,7 @@ Repository Contents
 * **/Fritzing** - Fritzing Example wiring images
 * **/Hardware** - All Eagle design files (.brd, .sch)
 * **/Production** - production panel files
+* **/SPICE** - LTspice schematic
 * **/Software** - Demo program files for hookup guide
 
 
